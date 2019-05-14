@@ -13,6 +13,8 @@
 * Comments and comments page ✔️
 * Events page ✔️
 * A section that presents an element (text to the left and image to the right)✔️
-* Organization of our choice  
+* Organization of our choice (we made a chat organism) ✔️  
+
+You can access all pages by clicking the dropdown menu  
 
 *Thank you for the correction*

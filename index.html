@@ -12,7 +12,59 @@
 <body>
 
 	<div class="mb-4">
-		<h2>Navbar</h2>
+
+		<nav class="navbar navbar-expand-lg" style="background-color: #78C2AD;"> 
+			<a class="navbar-brand" id="test" style="color: white;" href="#">UI Kit </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarColor02">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#navbar" >Navbar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#footer">Footer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#banners">Banners</a>
+					</li>	<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#forms">Forms</a>
+					</li>	<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#list_cards">List cards</a>
+					</li>	
+					<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#city_events">City events</a>
+					</li>	<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#comments">Comments</a>
+					</li>	<li class="nav-item">
+						<a class="nav-link" style="color: white;" href="#chat">Chat</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Organisms links
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="navbar.html" target="_blank">Navbar</a>
+							<a class="dropdown-item" href="footer.html" target="_blank">Footer</a>
+							<a class="dropdown-item" href="banners.html" target="_blank">Banners</a>
+							<a class="dropdown-item" href="forms.html" target="_blank">Forms</a>
+							<a class="dropdown-item" href="list_cards.html" target="_blank">List cards</a>
+							<a class="dropdown-item" href="list_attendees.html" target="_blank">List attendees</a>
+							<a class="dropdown-item" href="city_events.html" target="_blank">City events</a>
+							<a class="dropdown-item" href="comments.html" target="_blank">Comments</a>
+							<a class="dropdown-item" href="chat.html" target="_blank">Chat</a>
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="mb-4">
+		<h2><a name="navbar">Navbar</a></h2>
 		<hr>
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,7 +98,7 @@
 	
 
 	<div>
-		<h2>Footer</h2>
+		<h2><a name="footer">Footer</a></h2>
 		<hr>
 		<div class="card footer mb-4">
 			<div class="card-body">
@@ -55,7 +107,7 @@
 		</div>
 	</div>
 
-	<h2>Forms</h2>
+	<h2><a name="forms">Forms</a></h2>
 	
 
 	<hr>
@@ -145,7 +197,7 @@
 	</div>
 
 	<div>
-		<h2>Banners</h2>
+		<h2><a name="banners">Banners</a></h2>
 		<hr>
 		<h4 class="mb-4 mt-3" style="font-weight:bold; text-align: center;">Home banner</h4>
 		<div class="jumbotron">
@@ -166,7 +218,7 @@
 		</div>
 	</div>
 
-	<h2>Cards</h2>
+	<h2><a name="list_cards">Cards</a></h2>
 	<hr>
 	<div class="container col col-12">
 		<div>
@@ -221,7 +273,7 @@
 		</div>
 	</div>
 
-	<h2 class="mt-5">Comments</h2>
+	<h2 class="mt-5"><a name="comments">Comments</a></h2>
 	<hr>
 
 	<div>
@@ -235,7 +287,7 @@
 		</div>
 	</div>
 
-	<h2 class="mt-5">City events details</h2>
+	<h2 class="mt-5"><a name="city_events">City events details</a></h2>
 	<hr>
 
 	<section class="slice slice-lg">
@@ -297,10 +349,10 @@
 		</div>
 	</section>
 
-	<h2 class="mt-5">Chat</h2>
-
-	<div class="container">
-		<img style="width: 5%; height: 5%" src="https://images.unsplash.com/photo-1524593689594-aae2f26b75ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Avatar">
+	<h2 class="mt-5"><a name="chat">Chat</a></h2>
+	<hr>
+	<div class="chat">
+		<img src="http://www.iconninja.com/files/592/204/968/communication-male-cyber-avatar-man-person-crime-human-profile-head-anonymous-hacker-creative-icon.svg" alt="Avatar">
 		<p>Hello. How are you today?</p>
 		<span class="time-right">11:00</span>
 		<div class="form-group">
@@ -309,8 +361,10 @@
 			<button type="submit" class="btn btn-primary">Send</button>
 		</div>
 	</div>
-	<hr>
 
-	
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
 </body>
 </html>
