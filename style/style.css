@@ -10807,3 +10807,9 @@ legend {
 .list-group-item h6 {
   color: inherit;
 }
+
+.footer {
+  background-color: #F3969A;
+  color: white;
+  text-align: center;
+}
