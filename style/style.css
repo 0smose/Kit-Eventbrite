@@ -2014,9 +2014,9 @@ pre code {
 }
 
 .form-control {
-  display: block;
+  /*display: block;*/
   width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
+  /*height: calc(1.5em + 0.75rem + 2px);*/
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
@@ -2148,14 +2148,26 @@ textarea.form-control {
   height: auto;
 }
 
+.test2 {
+
+  display:flex;
+
+
+}
+
 .form-group {
   margin-bottom: 1rem;
+  width:70%;
+  padding-bottom: 15px;
+  margin-right: 50px;
+
 }
 
 .form-text {
   display: block;
   margin-top: 0.25rem;
 }
+
 
 .form-row {
   display: -webkit-box;
