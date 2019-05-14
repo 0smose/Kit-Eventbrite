@@ -416,7 +416,7 @@ h6, .h6 {
 
 .display-2 {
   font-size: 5.5rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -427,9 +427,10 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 900;
   line-height: 1.2;
+  color: white;
 }
 
 hr {
@@ -5442,8 +5443,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #f7f7f9;
+  background: url('https://images.unsplash.com/photo-1458891216473-4f26bb4eb40e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
   border-radius: 0.6rem;
+  text-align: center;
+  color: white;
 }
 
 @media (min-width: 576px) {
@@ -5456,6 +5459,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
+  background: url('https://images.unsplash.com/photo-1514605411468-81f98844a475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  height: 300px;
 }
 
 .alert {
